@@ -2,4 +2,6 @@
 
 Este proyecto muestra mis habilidades en desarrollo web front-end, con un diseño limpio y adaptable creado con HTML, CSS y JavaScript.
 
+Primersos pasos con Git y VS Code
+
 https://webusable.github.io/portfolio/
