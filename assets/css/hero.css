@@ -27,7 +27,7 @@
     padding: 0 50px;
 }
 
-#hero h2 div {
+#hero h2 span.hero-title {
     display: block;
     width: fit-content;
     font-size: 4rem;
@@ -43,15 +43,15 @@
     }
 }
 
-#hero h2 div:nth-child(1) {
+#hero h2 span.hero-title:nth-child(1) {
     animation-delay: 1s;
 }
 
-#hero h2 div:nth-child(2) {
+#hero h2 span.hero-title:nth-child(2) {
     animation-delay: 2s;
 }
 
-#hero h2 div:nth-child(3) {
+#hero h2 span.hero-title:nth-child(3) {
     animation: text-reveal-name 0.5s ease 1.5s forwards;
     animation-delay: 3s;
 }
@@ -63,7 +63,7 @@
     }
 }
 
-#hero h2 span {
+#hero h2 span:not(.hero-title) {
     background-color: crimson;
     height: 100%;
     width: 0;
@@ -85,15 +85,15 @@
     }
 }
 
-#hero h2 div:nth-child(1) span {
+#hero h2 span.hero-title:nth-child(1) span {
     animation-delay: 0.5s;
 }
 
-#hero h2 div:nth-child(2) span {
+#hero h2 span.hero-title:nth-child(2) span {
     animation-delay: 1.5s;
 }
 
-#hero h2 div:nth-child(3) span {
+#hero h2 span.hero-title:nth-child(3) span {
     animation-delay: 2.5s;
 }
 
